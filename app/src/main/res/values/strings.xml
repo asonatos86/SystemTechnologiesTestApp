@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SystemTechnologiesTestApp</string>
+    <string name="title_list">List</string>
+    <string name="title_convert">Currency Converter</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <string name="app_version">0.1.1</string>
+
+    <string name="base_url">https://api.coincap.io/v2/</string>
+    <string name="title_activity_info">InfoActivity</string>
+</resources>
