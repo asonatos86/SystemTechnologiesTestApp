@@ -2,6 +2,7 @@ package com.bobko.systemtechnologiestestapp.ui.converter
 
 import android.util.Log
 import androidx.databinding.ObservableField
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.bobko.systemtechnologiestestapp.CurrencyApplication
@@ -17,6 +18,7 @@ class ConvertViewModel : ViewModel() {
     var currencyList = MutableLiveData<List<Currency>>()
     var price = ObservableField<String>()
     var resultPrice = ObservableField<String>()
+    var asd = MutableLiveData<String>()
     private val repository: Repository
 
     init {
