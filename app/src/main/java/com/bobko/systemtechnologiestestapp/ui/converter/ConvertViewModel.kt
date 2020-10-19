@@ -19,6 +19,7 @@ class ConvertViewModel : ViewModel() {
     var price = ObservableField<String>()
     var resultPrice = ObservableField<String>()
     var asd = MutableLiveData<String>()
+    var zxc = MutableLiveData<String>()
     private val repository: Repository
 
     init {
